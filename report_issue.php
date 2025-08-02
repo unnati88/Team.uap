@@ -189,7 +189,7 @@ button[type="submit"]:hover {
         <input type="file" name="photos[]" accept="image/*" multiple><br><br>
 <label>Location</label>
     <input type="text" id="location" placeholder="Click to auto-fill location" readonly>
-    <button type="button" onclick="getLocation()">📍 Get Location</button>
+    <button type="button" onclick="getLocation()"> Get Location</button>
         <button type="submit">Submit Report</button>
     </form>
 </body>
