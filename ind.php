@@ -4,7 +4,7 @@ include "head.php";
 <html>
 <head>
     <style>
-      /* General Layout */
+      
 body {
   margin: 0;
   padding: 0;
@@ -12,8 +12,6 @@ body {
   background-color: #f9f9f9;
   color: #1e1e1e;
 }
-
-/* ===== Title Section ===== */
 .title {
   text-align: center;
   padding: 3rem 1rem 1.5rem;
@@ -27,8 +25,6 @@ body {
   font-weight: 700;
   letter-spacing: 1px;
 }
-
-/* ===== Intro Section ===== */
 .intro {
   background-color: #ffffff;
   padding: 2rem 1rem 3rem;
@@ -53,8 +49,6 @@ body {
   font-size: 1.1rem;
   margin-bottom: 1.2rem;
 }
-
-/* ===== Button Styling ===== */
 .btn-report {
   background-color: #f4a261;
   color: black;
@@ -69,8 +63,6 @@ body {
 .btn-report:hover {
   background-color: #e07b39;
 }
-
-/* ===== Responsive Design ===== */
 @media (max-width: 600px) {
   .title h1 {
     font-size: 2rem;

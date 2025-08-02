@@ -59,7 +59,7 @@ if (session_status() === PHP_SESSION_NONE) {
     }
 
     .logo img {
-      height: 40px;
+      height: 80px;
       width: auto;
       border-radius: var(--radius);
     }
@@ -153,7 +153,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
 <header>
   <div class="navbar-container">
-    <div class="logo"><img src="logo.png" alt="logo"> HamroAawaz</div>
+    <div class="logo"><img src="logo1.png" alt="logo"> HamroAawaz</div>
 
     <button class="menu-toggle" onclick="toggleMenu()">☰</button>
 
