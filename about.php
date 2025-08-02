@@ -15,7 +15,7 @@
   line-height: 1.8;
 }
 
-/* ===== Container ===== */
+
 .container {
   max-width: 800px;
   margin: 3rem auto;
@@ -25,7 +25,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-/* ===== About Section ===== */
+
 .about-section h2 {
   font-size: 2.2rem;
   margin-bottom: 1rem;
@@ -43,7 +43,7 @@
   color: #e74c3c;
 }
 
-/* ===== Responsive ===== */
+
 @media (max-width: 600px) {
   .container {
     margin: 1.5rem;
@@ -67,7 +67,7 @@
     <section class="about-section">
       <h2>About Us</h2>
       <p>
-        <strong>HamroAwaz</strong> HamroAawaz is a community-driven platform designed to empower local citizens to report their concerns directly to their respective ward authorities.
+        <strong>HamroAwaz</strong> is a community-driven platform designed to empower local citizens to report their concerns directly to their respective ward authorities.
         Whether it's a blocked drainage, broken streetlight, or any other public issue, our mission is to bridge the gap between people and local governance.
      </p>  
      <p>We believe that small problems can lead to big change when reported, heard, and resolved in time.</p>

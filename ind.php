@@ -85,7 +85,7 @@ body {
       <strong>HamroAawaz</strong> is your voice for local change. Whether it's a broken streetlight, drainage problem, water supply problem, overflowing waste, or garbage <br> collection delay, report it directly to your ward with just a few clicks.
     </p>
     <p>
-      Stay informed, track the progress of your complaints, and hold your local leaders accountable, all through your phone or computer.
+      Hold your local leaders accountable, all through your phone or computer.
     </p>
     <form action="report_issue.php">
        <input type="submit" value="Report Issue Now" class="btn-report">

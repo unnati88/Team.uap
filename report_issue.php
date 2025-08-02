@@ -111,9 +111,10 @@ input[type="file"] {
 button[type="submit"] {
   display: block;
   width: 100%;
-  background-color: #2e86ab;
+  background-color: #e74c3c;
   color: white;
   font-size: 1.1rem;
+  margin-top:10px;
   padding: 0.75rem;
   border: none;
   border-radius: 6px;
@@ -141,6 +142,8 @@ button[type="submit"]:hover {
 }
 
     </style>
+   
+
 </head>
 <body>
     <h2>Report an Issue</h2>
@@ -184,8 +187,23 @@ button[type="submit"]:hover {
 
         <label>Attach Photos</label><br>
         <input type="file" name="photos[]" accept="image/*" multiple><br><br>
-
+<label>Location</label>
+    <input type="text" id="location" placeholder="Click to auto-fill location" readonly>
+    <button type="button" onclick="getLocation()">📍 Get Location</button>
         <button type="submit">Submit Report</button>
     </form>
 </body>
+<script>
+  function getLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(pos => {
+        document.getElementById("location").value = `${pos.coords.latitude}, ${pos.coords.longitude}`;
+      }, () => {
+        alert("Please allow location access.");
+      });
+    } else {
+      alert("Geolocation not supported.");
+    }
+  }
+</script>
 </html>
